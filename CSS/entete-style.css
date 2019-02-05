@@ -1,0 +1,281 @@
+ /*Style CSS */
+
+/* -- Entete -- */
+
+@media screen and (min-width: 900px)
+{
+	header
+	{
+		width: 100%;
+		height: 205px;
+		background-color: #ffb579;
+	}
+	header h1
+	{
+		font-family: "policeTitre";
+		font-size: 60px;
+		padding-left: 50px;
+		padding-top: 20px;
+	}
+}
+@media screen and (max-width: 900px)
+{
+	header
+	{
+		width: 900px;
+		height: 205px;
+		background-color: #ffb579;
+	}
+	header h1
+	{
+		font-family: "policeTitre";
+		font-size: 60px;
+		text-align: center;
+		padding-top: 20px;
+	}
+}
+@media screen and (min-width: 2000px)
+{
+	header h1
+	{
+		text-align: center;
+		padding-left: 0px;
+	}
+}
+
+/*Menu*/
+.centrer
+{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+nav
+{
+	margin-top: 35px;
+	z-index: 1;
+}
+nav a
+{
+	font-family: "policeMenu";
+	font-size: 1.05em;
+	color: black;
+}
+nav ul
+{
+	display: flex;
+}
+nav ul li
+{
+	width: 150px;
+	height: 70px;
+	background-color: #f68428;
+}
+nav ul li a
+{
+	display: flex;
+	justify-content: center;
+	padding-top: 16.5%;
+	padding-bottom: 16.9%;
+}
+/*Menu-End*/
+
+
+/*Menu-anim*/
+nav li:hover
+{
+	background-color: #f68d39;
+}
+/*Menu-anim-End*/
+
+
+/*Menu-deroulant*/
+nav ul li ul
+{
+	opacity: 0;
+	transition: 0.7s;
+}
+nav ul li ul li
+{
+	display: block;
+	background-color: #f68428;
+	width: 130px;
+	height: 70px;
+	margin: auto;
+	margin-bottom: 0;
+	margin-top: 0;
+	display: none;
+}
+nav ul li ul li a
+{
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+nav ul li ul li div
+{
+	border-top: 1px solid #8f6544;
+	width: 70%;
+	height: 1px;
+	margin: auto;
+}
+/*Menu-deroulant-End*/
+
+
+/*Menu-deroulant-anim*/
+nav ul li:nth-of-type(5):hover ul
+{
+	opacity: 1;
+	display: block;
+}
+nav ul li:nth-of-type(5):hover ul li
+{
+	display: block;
+}
+/*Menu-deroulant-anim-End*/
+
+
+/*Menu-ancres*/
+@media screen and (max-height: 400px)
+{
+	div.nav_ancres
+	{
+		display: none;
+	}
+}
+
+div.nav_ancres
+{
+	width: 140px;
+	float: left;
+	position: sticky;
+	top: 200px;
+}
+@media screen and (max-width: 1160px)
+{
+	div.nav_ancres
+	{
+		width: 80px;
+	}
+}
+@media screen and (max-width: 1080px)
+{
+	div.nav_ancres
+	{
+		width: 50px;
+	}
+}
+
+div.nav_ancres a
+{
+	color: black;
+}
+div.nav_ancres a:visited
+{
+	color: black;
+}
+
+div.nav_ancres ul
+{
+	position: relative;
+	left: -200px;
+	transition: 0.7s;
+}
+
+div.nav_ancres li
+{
+	width: 230px;
+	height: 30px;
+	display: flex;
+	background-color: #AFD3D8;
+	border: black solid 1px;
+	border-bottom: 0;
+	font-family: "policeMenu";
+	transition: 0.4s;
+}
+div.nav_ancres a:first-child li
+{
+	transition: 1s;
+	border-radius: 0 25px 0 0 / 0 100% 0 0;
+}
+div.nav_ancres a:last-child li
+{
+	transition: 1s;
+	border-bottom: black solid 1px;
+	border-radius: 0 0 25px 0 / 0 0 100% 0;
+}
+
+div.nav_ancres li div:nth-of-type(1)
+{
+	position: relative;
+	left: 0px;
+	width: 85%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transition: 1s;
+}
+
+div.nav_ancres li div:nth-of-type(2)
+{
+	position: relative;
+	left: 0px;
+	width: 15%;
+	height: 100%;
+	color: #5C888F;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transition: 0.8s;
+}
+
+div.nav_ancres li p
+{
+	text-align: center;
+}
+
+/*Menu-ancres-deploit*/
+
+div.nav_ancres:hover a:first-child li
+{
+	border-radius: 0 10px 0 0;
+}
+
+div.nav_ancres:hover a:last-child li
+{
+	border-radius: 0 0 10px 0;
+}
+
+div.nav_ancres:hover li div:nth-of-type(1)
+{
+	left: 10px;
+	width: 100%;
+}
+
+div.nav_ancres:hover li div:nth-of-type(2)
+{
+	width: 10%;
+	left: -250px;
+	border: 0;
+	transition-timing-function: ease;
+}
+
+div.nav_ancres:hover ul
+{
+	left: 0px;
+}
+
+/*Menu-ancres-deploit-End*/
+
+/*Menu-ancres-survol*/
+
+div.nav_ancres li:hover
+{
+	background-color: #88B1B8;
+}
+
+/*Menu-ancres-survol-End*/
+
+/*Menu-ancres-End*/
+
+/* -- Entete-End -- */

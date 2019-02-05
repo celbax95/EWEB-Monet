@@ -1,0 +1,162 @@
+/* Style CSS */
+
+.espace_1
+{
+	padding-top: 10px;
+}
+.espace_2
+{
+	padding-top: 20px;
+}
+.espace_3
+{
+	padding-top: 40px;
+}
+.espace_4
+{
+	padding-top: 60px;
+}
+.espace_5
+{
+	padding-top: 80px;
+}
+.espace_6
+{
+	padding-top: 100px;
+}
+.espace_7
+{
+	padding-top: 125px;
+}
+.espace_8
+{
+	padding-top: 150px;
+}
+.espace_9
+{
+	padding-top: 200px;
+}
+.espace_10
+{
+	padding-top: 300px;
+}
+
+.espaceImage_1
+{
+	margin-top: 10px;
+}
+.espaceImage_2
+{
+	margin-top: 20px;
+}
+.espaceImage_3
+{
+	margin-top: 40px;
+}
+.espaceImage_4
+{
+	margin-top: 60px;
+}
+.espaceImage_5
+{
+	margin-top: 80px;
+}
+
+.centre
+{
+	width: 750px;
+	margin: auto;
+}
+
+.gauche
+{
+	float: left;
+	width: 350px;
+	margin-left: 75px;
+}
+
+.droite
+{
+	float: right;
+	width: 350px;
+	margin-right: 75px;
+}
+
+.cadre
+{
+	padding: 10px;
+	border: black solid 1px;
+}
+
+.imageCote
+{
+	width: 350px;
+}
+
+.image3_gauche
+{
+	float: left;
+	width: 200px;
+	margin-left: 100px 
+}
+.image3_centre
+{
+	width: 200px;
+	margin: auto;
+}
+.image3_droite
+{
+	float: right;
+	width: 200px;
+	margin-right: 100px 
+}
+.image3
+{
+	width: 200px;
+}
+
+.imageCentre_1
+{
+	width: 200px;
+	margin: auto;
+}
+.image_1
+{
+	width: 200px;
+}
+.imageCentre_2
+{
+	width: 300px;
+	margin: auto;
+}
+.image_2
+{
+	width: 300px;
+}
+.imageCentre_3
+{
+	width: 400px;
+	margin: auto;
+}
+.image_3
+{
+	width: 400px;
+}
+.imageCentre_4
+{
+	width: 500px;
+	margin: auto;
+}
+.image_4
+{
+	width: 500px;
+}
+.imageCentre_5
+{
+	width: 600px;
+	margin: auto;
+}
+.image_5
+{
+	width: 600px;
+}

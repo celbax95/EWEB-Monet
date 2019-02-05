@@ -1,0 +1,95 @@
+/* Style CSS */
+
+/* -- Section-Start -- */
+
+section
+{
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 900px;
+	border-radius: 10px 10px;
+	background-color: #E9F3F5;
+}
+section p
+{
+	font-family: "policeParagraphe";
+	font-size: 14px;
+	text-align: justify;
+}
+section img
+{
+	border: black solid 2px;
+}
+section h1
+{
+	font-family: "policeTitre";
+	font-size: 50px;
+	text-align: center;
+	color: salmon;
+}
+section h2
+{
+	font-family: "policeParagraphe";
+	font-size: 22px;
+	margin-left: 100px;
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+
+section a
+{
+	text-decoration: underline;
+	color: #6572CE;
+}
+section a:visited
+{
+	color: #6572CE;
+}
+section a:hover
+{
+	color: #8895ED;
+}
+
+/* -- Section-End -- */
+
+/* -- Footer -- */
+
+footer
+{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+footer div
+{
+	width: 150px;
+	padding: 10px;
+	color: black;
+	background-color: lightgrey;
+	border: black solid 1px;
+	border-radius: 5px;
+	transition: 0.7s;
+}
+footer a
+{
+	text-decoration: none;
+}
+
+footer div p
+{
+	font-family: "policeTitre";
+	font-weight: bold;
+	text-align: center;
+	font-size: 17px;
+}
+
+footer div:hover
+{
+	color: white;
+	background-color: darkgrey;
+}
+/* -- Footer-End -- */

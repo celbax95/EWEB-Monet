@@ -1,0 +1,94 @@
+/* Style CSS */
+
+/* -- Section -- */
+section
+{
+	z-index: 0;
+	width: 1100px;
+	height: 700px;
+	margin: auto;
+}
+section div img
+{
+	position: absolute;
+	height: 250px;
+	z-index: 0;
+}
+
+section div div
+{
+	width: 360px;
+	height: 250px;
+}
+
+section div.haut
+{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	height: 50%;
+}
+section div.haut div
+{
+	margin-top: 60px;
+}
+section div.bas
+{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	height: 50%;
+}
+section div.bas div
+{
+	margin-top: 40px;
+}
+
+section div div img.b
+{
+	opacity: 0;
+	transition: 0.5s;
+}
+section div div:hover img.b
+{
+	opacity: 1;
+}
+
+div#i1
+{
+	width: 296px;
+}
+
+div#i2
+{
+	width: 317px;
+}
+
+div#i3
+{
+	width: 339px;
+}
+
+div#i4
+{
+	width: 343px;
+}
+
+div#i5
+{
+	width: 357px;
+}
+
+
+/* -- Section-End -- */
+
+/* -- Entete-taille-mobile -- */
+
+header
+{
+	min-width: 1100px;
+}
+
+/* -- Entete-taille-mobile-End -- */

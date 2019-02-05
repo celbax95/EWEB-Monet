@@ -1,0 +1,41 @@
+/* Style CSS */
+
+/* -- Section-Start -- */
+
+section
+{
+	margin: auto;
+	margin-top: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 900px;
+	border-radius: 10px 10px;
+	background-color: #E9F3F5;
+}
+section p
+{
+	font-family: "policeParagraphe";
+	font-size: 10px;
+	text-align: justify;
+}
+section img
+{
+	border: black solid 2px;
+}
+section h1
+{
+	font-family: "policeTitre";
+	font-size: 50px;
+	text-align: center;
+	color: salmon;
+}
+section h2
+{
+	font-family: "policeParagraphe";
+	font-size: 22px;
+	margin-left: 100px;
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+
+/* -- Section-End -- */
